@@ -19,7 +19,7 @@
 # throughout. Please refer to the TensorFlow dockerfiles documentation
 # for more information.
 
-ARG UBUNTU_VERSION=20.04
+ARG UBUNTU_VERSION=bionic
 
 FROM ubuntu:${UBUNTU_VERSION} as base
 
